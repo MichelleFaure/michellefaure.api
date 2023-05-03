@@ -1,0 +1,56 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container{
+    background-color: rgb(53, 52, 52);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(124, 124, 124);
+}
+
+input, select, button{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+h1, h3, p{
+    color: white;
+}
+
+button{
+    background-color: orange;
+    color:white;
+    font-size: 1rem;
+}
+
+.grafica{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 2rem;
+}
