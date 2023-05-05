@@ -24,9 +24,9 @@ async function calcularvalor(){
     const valor = indicadores[tipoMoneda].valor
     const valorIngresado = Number(input.value);
   
-    const resultado = valorIngresado*valor
+    const resultado = valorIngresado/valor
 
-    resultadoTotal.innerHTML = resultado
+    resultadoTotal.innerHTML = resultado.toFixed(2)
 
     getdataporfecha(tipoMoneda)
   } catch(e){
